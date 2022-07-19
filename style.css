@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -118,7 +120,9 @@ body {
 }
 
 .collection {
-    width: 100%;
+
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -141,8 +145,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    width: 70%;
-    margin: auto;
+
     grid-gap: 20px;
 
 }
@@ -175,9 +178,75 @@ body {
     color: purple;
     padding-top: 40px;
     text-decoration: none;
+    margin-right: 100px;
 }
 
 .see {
     text-decoration: none;
-    ;
+
+}
+
+
+
+.to-action {
+    display: flex;
+    margin-top: 90px;
+}
+
+.call-to-action {
+    text-align: center;
+    width: 50%;
+
+
+}
+
+.call-to-action-img {
+
+    align-items: right;
+    padding-left: 140px;
+}
+
+.all-to-action-text {
+
+    float: right;
+
+}
+
+.call-to-action-text h1 {
+
+    font-size: 38px;
+
+    font-weight: 700;
+    color: black;
+}
+
+
+.footer {
+    background-color: #0A0826;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.footer-icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+
+    padding-right: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.icon:hover {
+    color: #787885;
+
 }
