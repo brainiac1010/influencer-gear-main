@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.info-title {
+    padding-left: 8%;
+    padding-top: 2%;
+    color: #787885;
+
+}
+
+.top {
+
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+
+    width: 50%;
+}
+
+.nav-bar {
+    width: 50%;
+    text-align: right;
+    padding-right: 120px;
+
+}
+
+.nav-font {
+
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 50;
+    text-decoration: none;
+    padding-right: 34px;
+    color: #787885;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+}
+
+.call {
+    flex: 1;
+    padding: 1em;
+}
+
+.header-text {
+
+    padding-left: 150px;
+    padding-right: 150px;
+    Width: 582px;
+    Height: 133px;
+    color: #787885;
+
+
+}
+
+.big-text {
+
+    font-size: 52px;
+    padding-right: 50px;
+    font-weight: 700;
+    color: #787885;
+}
+
+.first-button {
+    padding: 10px 24px;
+    background-image: linear-gradient(to left, purple, #df678c);
+    border-radius: 25px;
+    color: white;
+}
+
+.header-bg {
+
+    background-image: url("./images/Circle\ design.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.brand-border {
+
+
+    width: 1110px;
+    height: 110px;
+
+    border: 2px 2px;
+    margin-top: 69px;
+    background-color: rgb(247, 252, 252);
+}
+
+.brand-logo {
+
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-left: 45px;
+
+
+}
+
+.collection {
+    width: 100%;
+}
+
+
+.collection-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #787885;
+}
+
+.brands {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 70%;
+    margin: auto;
+    grid-gap: 20px;
+
+}
+
+.card-pra {
+    color: #787885;
+}
+
+.card {
+
+    justify-self: center;
+    box-shadow: 5px 5px 8px #888888;
+    padding: 10px;
+    border-radius: 5px;
+
+
+
+}
+
+.main-card .card p i {
+
+    color: gold;
+
+}
+
+.see-more {
+
+
+    text-align: right;
+    color: purple;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.see {
+    text-decoration: none;
+    ;
+}
